@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        font-family: 'Baloo Bhai';
+        font-size: 22px;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bgm.jpg');
+          
+
+    }
+
+    .header {
+        /* background-color: white; */
+    }
+
+    .left {
+        position: absolute;
+        left: 50px;
+        top: 15px;
+        display: inline-block;
+        text-align: center;
+        /* border: 2px solid red; */
+        width: 30%;
+        color: white;
+    }
+    .left div {
+        line-height: 19px;
+        font-size: 35px;
+        text-align: center;
+        color: black;
+    }
+
+    .mid {
+        display: block;
+        margin: 90px auto;
+        /* border: 2px solid green; */
+        width: 45%;
+        text-align: center;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 60px;
+        top: 90px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        width: 15%;
+        text-align: center;
+        color: white;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: black;
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: pink;
+
+    }
+     
+    
+    
+    .btn {
+        font-family: 'Baloo Bhai';
+        margin: 0px 9px;
+        color: black;
+        background-color: white;
+        padding: 4px 30px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: pink;
+    }
+    .cnt h1 {
+        text-align: center;
+        font-size: 150px;
+        top: 200px;
+        margin: 200px;
+    } 
+    .container h1{
+        text-align: center;
+    }
+    .container button {
+        display: block;
+        width: 37%;
+        margin: 20px auto;
+        border-radius: 20px;
+        border: 2px solid black;
+        background-color: black;
+        color: white;
+
+    } 
+    .form-group input {
+        font-family: 'Baloo Bhai';
+        font-size: 22px;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 20px;
+        color: black;
+        
+    }
+    .left img {
+        width: 100px;
+        /* filter: invert(100%); */
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/blog.png" alt="">
+            <div>Turning Heads</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">My Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Search...</button>
+        </div>
+    </header>
+    <div class="cnt">
+        <h1>My life. My blog</h1>
+    </div>
+    <div class="container">
+        <h1>Let me know what's on your mind</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Emai Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Leave us a message..." >
+            </div>
+           <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+
+
+</body>
+
+</html>
